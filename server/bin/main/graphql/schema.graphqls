@@ -1,5 +1,12 @@
 type Query {
     bookById(id: ID): Book
+    employeeById(id: ID): Employee
+}
+
+type Employee {
+    id: ID
+    firstName: String
+    lastName: String
 }
 
 type Book {
