@@ -1,13 +1,11 @@
 package com.graphrefresh.graphql.db;
 
 import jakarta.persistence.*;
-
-import java.time.LocalDate;
 @Entity
 @Table(name="employees")
 public class Employee {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String firstName;
     private String lastName;
