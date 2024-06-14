@@ -1,10 +1,6 @@
 package com.graphrefresh.graphql.db;
 
 import jakarta.persistence.*;
-
-
-
-
 @Entity
 @Table(name="book")
 public class Book {

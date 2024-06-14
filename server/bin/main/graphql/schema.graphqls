@@ -1,6 +1,17 @@
 type Query {
     bookById(id: ID): Book
     employeeById(id: ID): Employee
+    employees: [Employee]
+}
+
+type Mutation {
+    addEmployee(employee: EmployeeInput): Employee
+}
+
+
+input EmployeeInput {
+    firstName: String
+    lastName: String
 }
 
 type Employee {

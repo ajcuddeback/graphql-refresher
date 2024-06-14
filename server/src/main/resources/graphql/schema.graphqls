@@ -4,6 +4,16 @@ type Query {
     employees: [Employee]
 }
 
+type Mutation {
+    addEmployee(employee: EmployeeInput): Employee
+}
+
+
+input EmployeeInput {
+    firstName: String
+    lastName: String
+}
+
 type Employee {
     id: ID
     firstName: String
