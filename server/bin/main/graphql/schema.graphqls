@@ -1,11 +1,14 @@
 type Query {
     bookById(id: ID): Book
     employeeById(id: ID): Employee
+    authorById(id: ID): Author
     employees: [Employee]
 }
 
 type Mutation {
     addEmployee(employee: EmployeeInput): Employee
+    addAuthor(author: AuthorInput): Author
+    addBook(book: BookInput): Book
 }
 
 
@@ -27,8 +30,19 @@ type Book {
     author: Author
 }
 
+input BookInput {
+    name: String
+    pageCount: Int
+    author: Int
+}
+
 type Author {
     id: ID
+    firstName: String
+    lastName: String
+}
+
+input AuthorInput {
     firstName: String
     lastName: String
 }

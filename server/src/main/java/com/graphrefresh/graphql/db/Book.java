@@ -17,12 +17,12 @@ public class Book {
     public Book() {
     }
 
-//    public Book(String name, int pageCount, Author author) {
-//        this.name = name;
-//        this.pageCount = pageCount;
-//        this.author = author;
-//    }
-//
+    public Book(String name, int pageCount, Author author) {
+        this.name = name;
+        this.pageCount = pageCount;
+        this.author = author;
+    }
+
     public Integer getId() {
         return this.id;
     }
@@ -34,8 +34,8 @@ public class Book {
     public int getPageCount() {
         return this.pageCount;
     }
-//
-//    public Author getAuthor() {
-//        return this.author;
-//    }
+
+    public Author getAuthor() {
+        return this.author;
+    }
 }
