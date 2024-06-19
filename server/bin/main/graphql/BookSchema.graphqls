@@ -1,0 +1,23 @@
+type Book {
+    id: ID
+    name: String
+    pageCount: Int
+    author: Author
+}
+
+input BookInput {
+    name: String
+    pageCount: Int
+    author: Int
+}
+
+type Author {
+    id: ID
+    firstName: String
+    lastName: String
+}
+
+input AuthorInput {
+    firstName: String
+    lastName: String
+}

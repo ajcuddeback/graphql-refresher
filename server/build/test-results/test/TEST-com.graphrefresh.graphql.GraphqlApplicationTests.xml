@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.graphrefresh.graphql.GraphqlApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-11T13:53:22" hostname="Austins-MacBook-Pro.local" time="0.723">
+<testsuite name="com.graphrefresh.graphql.GraphqlApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-18T23:12:35" hostname="Austins-MacBook-Pro.local" time="0.682">
   <properties/>
-  <testcase name="contextLoads()" classname="com.graphrefresh.graphql.GraphqlApplicationTests" time="0.723"/>
-  <system-out><![CDATA[09:53:14.937 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.graphrefresh.graphql.GraphqlApplicationTests]: GraphqlApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-09:53:15.082 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.graphrefresh.graphql.GraphqlApplication for test class com.graphrefresh.graphql.GraphqlApplicationTests
+  <testcase name="contextLoads()" classname="com.graphrefresh.graphql.GraphqlApplicationTests" time="0.682"/>
+  <system-out><![CDATA[19:12:29.502 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.graphrefresh.graphql.GraphqlApplicationTests]: GraphqlApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:12:29.632 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.graphrefresh.graphql.GraphqlApplication for test class com.graphrefresh.graphql.GraphqlApplicationTests
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
 ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
@@ -13,29 +13,29 @@
 
  :: Spring Boot ::                (v3.3.0)
 
-2024-06-11T09:53:15.848-04:00  INFO 40818 --- [    Test worker] c.g.graphql.GraphqlApplicationTests      : Starting GraphqlApplicationTests using Java 21.0.2 with PID 40818 (started by austincuddeback in /Users/austincuddeback/Desktop/personal/graphql-refresher/server)
-2024-06-11T09:53:15.852-04:00  INFO 40818 --- [    Test worker] c.g.graphql.GraphqlApplicationTests      : No active profile set, falling back to 1 default profile: "default"
-2024-06-11T09:53:17.394-04:00  INFO 40818 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-06-11T09:53:17.570-04:00  INFO 40818 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 168 ms. Found 1 JPA repository interface.
-2024-06-11T09:53:18.557-04:00  INFO 40818 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-06-11T09:53:18.599-04:00  INFO 40818 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
-2024-06-11T09:53:18.635-04:00  INFO 40818 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-06-11T09:53:19.070-04:00  INFO 40818 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-06-11T09:53:19.097-04:00  INFO 40818 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-06-11T09:53:19.547-04:00  INFO 40818 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@aa0dbca
-2024-06-11T09:53:19.549-04:00  INFO 40818 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-06-11T09:53:19.580-04:00  WARN 40818 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-06-11T09:53:20.462-04:00  INFO 40818 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-06-11T09:53:20.542-04:00  INFO 40818 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-06-11T09:53:21.589-04:00  WARN 40818 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-06-11T09:53:22.168-04:00  INFO 40818 --- [    Test worker] efaultSchemaResourceGraphQlSourceBuilder : Loaded 1 resource(s) in the GraphQL schema.
-2024-06-11T09:53:22.358-04:00  INFO 40818 --- [    Test worker] o.s.b.a.g.GraphQlAutoConfiguration       : GraphQL schema inspection:
+2024-06-18T19:12:30.125-04:00  INFO 67531 --- [    Test worker] c.g.graphql.GraphqlApplicationTests      : Starting GraphqlApplicationTests using Java 21.0.2 with PID 67531 (started by austincuddeback in /Users/austincuddeback/Desktop/personal/graphql-refresher/server)
+2024-06-18T19:12:30.126-04:00  INFO 67531 --- [    Test worker] c.g.graphql.GraphqlApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-06-18T19:12:31.214-04:00  INFO 67531 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-18T19:12:31.351-04:00  INFO 67531 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 129 ms. Found 3 JPA repository interfaces.
+2024-06-18T19:12:32.086-04:00  INFO 67531 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-18T19:12:32.121-04:00  INFO 67531 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-18T19:12:32.152-04:00  INFO 67531 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-18T19:12:32.571-04:00  INFO 67531 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-18T19:12:32.603-04:00  INFO 67531 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-18T19:12:32.820-04:00  INFO 67531 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9f1ca74
+2024-06-18T19:12:32.823-04:00  INFO 67531 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-18T19:12:32.847-04:00  WARN 67531 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-18T19:12:33.595-04:00  INFO 67531 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-18T19:12:33.638-04:00  INFO 67531 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-18T19:12:34.548-04:00  WARN 67531 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-18T19:12:35.035-04:00  INFO 67531 --- [    Test worker] efaultSchemaResourceGraphQlSourceBuilder : Loaded 2 resource(s) in the GraphQL schema.
+2024-06-18T19:12:35.217-04:00  INFO 67531 --- [    Test worker] o.s.b.a.g.GraphQlAutoConfiguration       : GraphQL schema inspection:
 	Unmapped fields: {}
 	Unmapped registrations: {}
 	Unmapped arguments: {}
 	Skipped types: []
-2024-06-11T09:53:22.393-04:00  INFO 40818 --- [    Test worker] s.b.a.g.s.GraphQlWebMvcAutoConfiguration : GraphQL endpoint HTTP POST /graphql
-2024-06-11T09:53:22.609-04:00  INFO 40818 --- [    Test worker] c.g.graphql.GraphqlApplicationTests      : Started GraphqlApplicationTests in 7.298 seconds (process running for 8.929)
+2024-06-18T19:12:35.265-04:00  INFO 67531 --- [    Test worker] s.b.a.g.s.GraphQlWebMvcAutoConfiguration : GraphQL endpoint HTTP POST /graphql
+2024-06-18T19:12:35.542-04:00  INFO 67531 --- [    Test worker] c.g.graphql.GraphqlApplicationTests      : Started GraphqlApplicationTests in 5.76 seconds (process running for 7.155)
 ]]></system-out>
   <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/austincuddeback/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.16/4a451ee6484abac3a498df0f3b33ed00a6fced4d/byte-buddy-agent-1.14.16.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning

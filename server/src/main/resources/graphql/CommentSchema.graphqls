@@ -1,0 +1,13 @@
+type Comment {
+    id: ID
+    employee: Employee
+    comment: String
+    createdDate: Int
+    replies: [Comment]
+}
+
+input CommentInput {
+    employeeId: ID!
+    comment: String!
+    parentId: ID
+}
