@@ -1,0 +1,23 @@
+@if(!loading || !error) {
+    @for (book of books; track $index) {
+        <div class="book">
+            <div class="title">{{ book.name }}</div>
+            <div class="page-count">{{ book.pageCount }}</div>
+            <div class="author">
+                <div class="name">
+                    {{ book.author.firstName + " " + book.author.lastName }}
+                </div>
+            </div>
+        </div>
+    }
+}
+
+@if(loading) {
+    Loading...
+}
+
+@if(error) {
+    <div class="error">
+        Failed to retrieve books!
+    </div>
+}

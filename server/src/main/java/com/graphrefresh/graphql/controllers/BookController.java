@@ -26,6 +26,11 @@ public class BookController {
         return bookRepository.findById(id);
     }
 
+    @QueryMapping
+    public Iterable<Book> books() {
+        return this.bookRepository.findAll();
+    }
+
     @MutationMapping
     public Book addBook(@Argument("book") BookInput bookInput) {
         Author author = authorRepository.findById(bookInput.getAuthor())
